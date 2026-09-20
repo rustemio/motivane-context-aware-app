@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "MotiVane",
+    "slug": "motivane",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "motivane",
+    "backgroundColor": "#0C0C0C",
+    "splash": {
+      "backgroundColor": "#0C0C0C",
+      "resizeMode": "contain",
+      "image": "./assets/splash-icon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "MotiVane checks whether an idea's conditions are met where you are."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0C0C0C",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "MotiVane checks whether an idea's conditions are met where you are."
+        }
+      ]
+    ]
+  }
+}
