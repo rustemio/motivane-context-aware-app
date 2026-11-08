@@ -1,0 +1,30 @@
+{
+  "name": "motivane",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A context-aware home for ideas: they hang on threads and come down when the moment is right.",
+  "author": "Rustem Tukhbetov",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/instrument-sans": "^5.3.0",
+    "@fontsource-variable/shantell-sans": "^5.3.0",
+    "@fontsource/young-serif": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.5",
+    "vitest": "^5.0.5"
+  }
+}
